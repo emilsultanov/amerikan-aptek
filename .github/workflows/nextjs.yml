@@ -37,8 +37,6 @@ jobs:
           node-version: "20"
       - name: Install PNPM
         run: npm install -g pnpm
-      - name: Use PNPM
-        run: /path/to/pnpm install
       - name: Setup pnpm
         uses: pnpm/action-setup@v2.4.0
       - name: Setup Pages
