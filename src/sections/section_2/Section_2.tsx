@@ -1,0 +1,43 @@
+import Image from "next/image";
+
+
+export default function Section_2() {
+	return (<section className={'py-32 bg-[#0c4a7c]'}>
+			<div className="container">
+				<div className="flex">
+					<div className={'w-1/2'}>
+						<h6 className={'font-semibold text-white uppercase text-base tracking-[2px] leading-6 pb-2.5'}>Doctor
+							Approved</h6>
+						<h2 className={'font-bold text-white text-[40px] leading-[56px] pb-2.5 w-3/4'}>Trusted By Doctors & Patients
+							Around the Country.</h2>
+						<p className={'font-medium text-white text-base leading-7 break-words pb-6 w-3/4'}>Lorem ipsum dolor sit
+							amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+							enim ad minim veniam, quis nostrud.</p>
+						<a href="#"
+						   className={'text-white py-3.5 px-6 inline-block leading-7 font-medium rounded-full bg-[#ff5473] cursor-pointer'}>About
+							Us</a>
+					</div>
+					<div className={'w-1/2 grid grid-cols-3 gap-1'}>
+						<div className={'relative'}>
+							<Image fill src={'/logo_01.png'} alt={'foto'} className={'object-contain'}/>
+						</div>
+						<div className={'relative'}>
+							<Image fill src={'/logo_02-1.png'} alt={'foto'} className={'object-contain'}/>
+						</div>
+						<div className={'relative'}>
+							<Image fill src={'/logo_03-2.png'} alt={'foto'} className={'object-contain'}/>
+						</div>
+						<div className={'relative'}>
+							<Image fill src={'/logo_04-2.png'} alt={'foto'} className={'object-contain'}/>
+						</div>
+						<div className={'relative'}>
+							<Image fill src={'/logo_05-2.png'} alt={'foto'} className={'object-contain'}/>
+						</div>
+						<div className={'relative'}>
+							<Image fill src={'/logo_06-2.png'} alt={'foto'} className={'object-contain'}/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>)
+}
