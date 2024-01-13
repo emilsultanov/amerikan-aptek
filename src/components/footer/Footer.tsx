@@ -7,7 +7,7 @@ export function Footer(){
 	return(
 		<footer className={'bg-[#222] py-4 px-10'}>
 			<div className="container">
-				<div className={'flex items-center justify-between'}>
+				<div className={'flex flex-col md:flex-row items-center justify-between gap-5'}>
 					<p className={'text-[#666]'}>Developed by Emil Sultanov :)</p>
 					<div className={'flex gap-5'}>
 						<Link href={'#'}>

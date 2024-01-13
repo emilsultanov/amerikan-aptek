@@ -6,8 +6,8 @@ export default function Section_4(){
 	return(
 		<section className={'py-32 bg-section-4'}>
 			<div className="container">
-				<div className={'flex'}>
-					<div className={'w-1/2 grid grid-cols-2 grid-rows-2 gap-5'}>
+				<div className={'flex flex-col md:flex-row'}>
+					<div className={'md:w-1/2 grid md:grid-cols-2 md:grid-rows-2 gap-5'}>
 						<div className={'flex items-center flex-col'}>
 							<div className={'p-7 text-white bg-blue-500 rounded-full mb-5'}>
 								<Phone />
@@ -37,9 +37,9 @@ export default function Section_4(){
 							<p className={'text-blue-500 text-center'}>M-F: 8am – 5pm <br/> S-S: 9am – 4pm</p>
 						</div>
 					</div>
-					<div className={'w-1/2 flex flex-col items-center justify-center'}>
-						<h2 className={'text-white text-center text-5xl leading-snug font-medium'}>Subscribe For Deals & <br/> Updates</h2>
-						<form action="" className={'flex flex-col w-2/3 gap-8 pt-6'}>
+					<div className={'md:w-1/2 flex flex-col items-center justify-center pt-8 md:pt-0'}>
+						<h2 className={'text-white text-center text-2xl md:text-5xl leading-snug font-medium'}>Subscribe For Deals & <br/> Updates</h2>
+						<form action="" className={'flex flex-col w-full md:w-2/3 gap-8 pt-6'}>
 							<input type="text" placeholder={'Email'} className={'rounded-full w-full p-4 outline-none text-base text-[#666] leading-6 text-center'}/>
 							<button className={'w-full text-white rounded-full text-center p-4 text-base leading-6 bg-[#014db7]'}>Subscribe</button>
 						</form>

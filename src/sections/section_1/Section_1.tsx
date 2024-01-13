@@ -5,7 +5,7 @@ export default function Section_1(){
 	return(
 		<section className={'py-32'}>
 			<div className={'container'}>
-				<div className="grid  grid-cols-4 gap-6">
+				<div className="grid grid-cols-1  md:grid-cols-4 gap-6">
 					<div>
 						<div className={'relative h-80 rounded-xl overflow-hidden mb-6'}>
 							<Image fill src={'/img-8.jpg'} alt={'foto'} />
