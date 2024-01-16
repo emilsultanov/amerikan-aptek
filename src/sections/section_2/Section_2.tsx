@@ -19,22 +19,22 @@ export default function Section_2() {
 					</div>
 					<div className={'md:w-1/2 grid grid-cols-1 md:grid-cols-3 gap-1'}>
 						<div className={'relative min-h-[50px]'}>
-							<Image fill src={'/logo_01.png'} alt={'foto'} className={'object-contain'}/>
+							<Image fill src={'/amerikan-aptek/logo_01.png'} alt={'foto'} className={'object-contain'}/>
 						</div>
 						<div className={'relative min-h-[50px]'}>
-							<Image fill src={'/logo_02-1.png'} alt={'foto'} className={'object-contain'}/>
+							<Image fill src={'/amerikan-aptek/logo_02-1.png'} alt={'foto'} className={'object-contain'}/>
 						</div>
 						<div className={'relative min-h-[50px]'}>
-							<Image fill src={'/logo_03-2.png'} alt={'foto'} className={'object-contain'}/>
+							<Image fill src={'/amerikan-aptek/logo_03-2.png'} alt={'foto'} className={'object-contain'}/>
 						</div>
 						<div className={'relative min-h-[50px]'}>
-							<Image fill src={'/logo_04-2.png'} alt={'foto'} className={'object-contain'}/>
+							<Image fill src={'/amerikan-aptek/logo_04-2.png'} alt={'foto'} className={'object-contain'}/>
 						</div>
 						<div className={'relative min-h-[50px]'}>
-							<Image fill src={'/logo_05-2.png'} alt={'foto'} className={'object-contain'}/>
+							<Image fill src={'/amerikan-aptek/logo_05-2.png'} alt={'foto'} className={'object-contain'}/>
 						</div>
 						<div className={'relative min-h-[50px]'}>
-							<Image fill src={'/logo_06-2.png'} alt={'foto'} className={'object-contain'}/>
+							<Image fill src={'/amerikan-aptek/logo_06-2.png'} alt={'foto'} className={'object-contain'}/>
 						</div>
 					</div>
 				</div>
