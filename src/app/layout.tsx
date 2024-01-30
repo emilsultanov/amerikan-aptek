@@ -1,9 +1,13 @@
 import type { Metadata } from 'next'
-import { Inter, Montserrat } from 'next/font/google'
-import './globals.css'
+import { Montserrat } from 'next/font/google'
 import {Header} from "@/components/header";
 import {Footer} from "@/components/footer";
 import {PropsWithChildren} from "react";
+
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import './globals.css'
 
 const montserrat = Montserrat({ subsets: ['latin'] })
 
