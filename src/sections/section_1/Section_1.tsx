@@ -13,6 +13,7 @@ export default function Section_1(){
 					slidesPerView={1}
 					spaceBetween={10}
 					modules={[Pagination]}
+					className={'h-[600px]'}
 					pagination={{
 						clickable: true,
 					}}
