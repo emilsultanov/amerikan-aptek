@@ -8,13 +8,13 @@ export default function Section_2() {
 					<div className={'md:w-1/2'}>
 						<h6 className={'font-semibold text-white uppercase text-base tracking-[2px] leading-6 pb-2.5'}>Doctor
 							Approved</h6>
-						<h2 className={'font-bold text-white text-2xl md:text-[40px] md:leading-[56px] pb-2.5 w-3/4'}>Trusted By Doctors & Patients
+						<h2 className={'font-bold text-white text-2xl md:text-[40px] md:leading-[56px] pb-2.5 w-full md:w-3/4'}>Trusted By Doctors & Patients
 							Around the Country.</h2>
-						<p className={'font-medium text-white text-base leading-7 break-words pb-6 w-3/4'}>Lorem ipsum dolor sit
+						<p className={'font-medium text-white text-base leading-7 break-words pb-6 w-full md:w-3/4'}>Lorem ipsum dolor sit
 							amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
 							enim ad minim veniam, quis nostrud.</p>
 						<a href="#"
-						   className={'text-white py-3.5 px-6 inline-block leading-7 font-medium rounded-full bg-[#ff5473] cursor-pointer'}>About
+						   className={'w-full sm:w-auto text-center text-white py-3.5 px-6 inline-block leading-7 font-medium rounded-full bg-[#ff5473] cursor-pointer'}>About
 							Us</a>
 					</div>
 					<div className={'md:w-1/2 grid grid-cols-1 md:grid-cols-3 gap-1'}>
