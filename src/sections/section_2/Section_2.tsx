@@ -2,7 +2,7 @@ import Image from "next/image";
 
 
 export default function Section_2() {
-	return (<section className={'py-32 bg-[#0c4a7c]'}>
+	return (<section id={'partners'} className={'py-32 bg-[#0c4a7c]'}>
 			<div className="container">
 				<div className="flex flex-col md:flex-row">
 					<div className={'md:w-1/2'}>

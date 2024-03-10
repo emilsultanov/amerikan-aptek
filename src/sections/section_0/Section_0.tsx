@@ -4,7 +4,7 @@ import {Clipboard, Heart, Voicemail} from "react-feather";
 
 export default function Section_0(){
 	return(
-		<section className={'bg-section-0 pt-[110px] pb-[160px]'}>
+		<section id={'about'} className={'bg-section-0 py-[50px]'}>
 			<div className="container">
 				<div className={'w-full md:w-1/2 mb-12'}>
 					<h6 className={'font-semibold uppercase text-base text-[rgba(255,255,255,0.7)] tracking-widest leading-6 pb-2.5'}>Free Shipping & 24/7 PickUp</h6>

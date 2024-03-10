@@ -5,7 +5,7 @@ import { Pagination } from 'swiper/modules';
 
 export default function Section_1(){
 	return(
-		<section className={'py-32'}>
+		<section id={'gallery'} className={'py-32'}>
 			<div className={'container'}>
 				<Swiper
 					loop

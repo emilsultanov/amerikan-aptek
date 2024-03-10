@@ -4,7 +4,7 @@ import {Phone, Voicemail, MapPin, Clock} from 'react-feather'
 
 export default function Section_4(){
 	return(
-		<section className={'py-32 bg-section-4'}>
+		<section id={'contact'} className={'py-32 bg-section-4'}>
 			<div className="container">
 				<div className={'flex flex-col md:flex-row'}>
 					<div className={'md:w-1/2 grid md:grid-cols-2 md:grid-rows-2 gap-5'}>

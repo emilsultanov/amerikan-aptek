@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
 import { Montserrat } from 'next/font/google'
+import {PropsWithChildren} from "react";
+
 import {Header} from "@/components/header";
 import {Footer} from "@/components/footer";
-import {PropsWithChildren} from "react";
 
 import 'swiper/css';
 import 'swiper/css/navigation';
